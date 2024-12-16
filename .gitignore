@@ -1,0 +1,22 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Backup files
+*.backup
+
+# Plan files
+*.tfplan
+
+# Crash logs
+crash.log
+
+# Terraform directories and files
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive files
+*.tfvars
+*.tfvars.json
+*.env
+
